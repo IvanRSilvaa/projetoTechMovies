@@ -1,0 +1,223 @@
+*{
+font-family: 'Fjalla-One',sans-serif;
+box-sizing: border-box;
+}
+
+body {
+font-family: 'Fjalla-One', sans-serif;
+margin: 0;
+background-image: url(filmesBackground.png);
+
+}
+
+
+header {
+size-adjust: relative;
+background-color: #2c35419d;
+color: #fff;
+padding: 20px;
+
+}
+
+.cad{
+color: #24C8D0;
+}
+
+
+
+h1 {
+
+text-align: center;
+font-size: 50px;
+color: #24C8D0;
+}
+
+.subtitle{
+text-align: center;
+font-family: 'Fjalla-One', sans-serif;
+font-size: 25px;
+
+}
+
+nav {
+display:block;
+align-items: center;
+}
+
+ul {
+list-style: none;
+margin: 0;
+padding: 0;
+text-align: center;
+
+}
+
+form li {
+    display: flex;
+    margin-right: 20px;
+    text-align: right;
+    justify-content: center;
+    
+    
+    }
+
+a {
+color: #fff;
+text-decoration: none;
+text-align: right;
+}
+
+
+.input-group {
+    position: relative;
+    }
+    
+    .input {
+    border: solid 1.5px #9e9e9e;
+    border-radius: 1rem;
+    background: none;
+    padding: 1rem;
+    margin-bottom: 50px;
+    margin-left: 10px;
+    font-size: 1rem;
+    color: #f5f5f5;
+    transition: border 150ms cubic-bezier(0.4,0,0.2,1);
+    }
+    
+    .user-label {
+    position: absolute;
+    left: 13%;
+    color: #e8e8e8;
+    pointer-events: none;
+    transform: translateY(1rem);
+    }
+
+    .user-labels {
+    position: absolute;
+    left: 13%;
+    color: #e8e8e8;
+    pointer-events: none;
+    transform: translateY(1rem);
+    }
+    
+    .input, input {
+    outline: none;
+    border: 1.5px solid #24C8D0;
+    }
+    
+    .input ~ label, input ~ label {
+    transform: translateY(-50%) scale(0.8);
+    background-color: #21212186;
+    padding: 0.2em;
+    color: white;
+    }
+
+button {
+    font-size: 17px;
+    padding: 0.5em 2em;
+    border: transparent;
+    box-shadow: 2px 2px 4px rgba(0,0,0,0.4);
+    background: #24C8D0;
+    color: white;
+    border-radius: 4px;
+    }
+    
+    button:hover {
+    background: #1a969c;
+    background: linear-gradient(90deg, #1a969c) 0%, rgb(253, 253, 253);
+    transition: 0.2s;
+    cursor: pointer;
+    
+    }
+    
+    button:active {
+    transform: translate(0em, 0.2em);
+    transition: 0.2s
+    }
+
+
+
+main {  
+    padding: 20px;
+    font-size: 30px;
+    color: #fff;
+    font-family: 'Fjalla-One', sans-serif;
+    
+}
+img.watch{
+    position: relative;
+    right: 0;
+    left: 150px;
+    width: 70%;
+    height: auto; 
+}
+
+
+
+footer {
+    background-color: #2c35419d;
+    color: #fff;
+    padding: 20px;
+    position: relative;
+    font-size: small;
+}
+footer.fixar-rodape{
+    border-top: 1px solid #333;
+    bottom: 0;
+    left: 0;
+    height: 14%;
+    position: fixed;
+    width: 100%;
+    }
+
+
+
+p {
+    text-align: center;
+}
+
+@media(min-width: 1001px) and (max-width: 2000px) {      
+img.logo{
+    position: relative;
+    margin-left: 40%;
+    width: 20%;
+    height: auto;
+}
+
+}
+@media(min-width: 601px) and (max-width: 1000px)  {      
+    img.logo{
+        position: relative;
+        margin-left: 28%;
+        width: 50%;
+        height: auto;
+    }
+    .input{
+        height: 80px;
+        width: 400px;
+        padding: 5;
+        border: 5px solid #24C8D0;
+        font-size: 30px;
+    }
+    button{
+        height: 60px;
+        width: 150px;
+        font-size: max-content;
+    }
+    footer,p{
+        font-size: 30px;
+    }
+    label{
+        font-size: 30px;
+    }
+
+}
+@media(min-width: 300px) and (max-width: 600px)  {      
+    img.logo{
+        position: relative;
+        margin-left: 20%;
+        width: 75%;
+        height: auto;
+    }
+
+}

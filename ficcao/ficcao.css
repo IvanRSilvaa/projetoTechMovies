@@ -1,0 +1,3221 @@
+/*Css responsavel por controlar a parte do menu responsivo*/
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Robote', sans-serif;
+}
+.navlist{
+    z-index: 5;
+}
+body{
+    margin: 0;
+    padding: 0;
+    min-height: 100%;
+    height: 100%;
+    overflow-x: hidden;
+}
+
+
+
+a{
+    color: #fff;
+    text-decoration: none;
+
+}
+a:hover{
+    opacity: 1;
+}
+
+
+
+nav{
+    display: flex;
+    justify-content: space-around;
+    font-family: sans-serif;
+    background: #23232e;
+    height: 8vh;
+
+}
+
+
+
+
+
+
+.menu {
+     /*esconde o icone*/
+    cursor: pointer;
+    display:block;
+}
+    
+
+/*Menu de Gêneros*/
+#menugeneros{
+    display: none;
+    margin-bottom: -10%;
+    
+}
+
+#menugeneros > ul{
+    list-style-type: none;
+}
+
+#menugeneros > ul > li> a{
+    display: block;
+    padding: 10px;
+    text-decoration: none;
+    background: rgb(68, 68, 68);
+    color:white;
+    text-align: center;
+    border-top: 2px solid black;
+}
+
+#menugeneros > ul > li> a:hover{
+    background:gray;
+}
+
+#FiltroGeneros{
+    background-color: rgb(71, 71, 71);
+    color: white;
+    cursor: pointer;
+    width:29.7vw;
+    text-align: center;
+    padding: 10px;
+    cursor:pointer;
+    margin-bottom: -29px;
+}
+
+#FiltroGeneros:hover{
+    background-color: white;
+    color:black;
+}
+
+
+
+/*para tell*/
+@media (min-width: 1556px) and (max-width: 1920px) { 
+    body{
+     
+        margin: 0;
+        padding: 0;
+        min-height: 100%;
+        height: 100%;
+    }
+    
+    
+    .divBarraPesquisa{
+        margin-left: 48%;
+        height: 25px;
+        padding: 25px;
+        border-radius: 40px;
+        background:rgba(14, 186, 209, 0.623) ;
+        box-shadow: 1px 2px 4px rgb(0, 225, 255) ;
+        display: flex;
+        margin-top: 0.5%;
+        align-items: center;
+        }
+
+
+        .barraPesquisa{
+            border:none;
+            background: none;
+            outline: none;
+            padding: 0;
+            color: rgb(255, 255, 255);
+            text-shadow: 1px 2px 4px rgb(255, 255, 255);
+            font-size: 16px;
+            line-height: 40px;
+            width: 0;
+            transition: .4s;
+            font-family:'Source Sans Pro' ;
+            }
+
+            ::-webkit-input-placeholder{
+                color:rgb(255, 255, 255);
+            }
+            
+            .botaoBarraPesquisa{
+            width: 40px;
+            height: 40px;
+            border-radius: 50%;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            
+            }
+            
+            
+            .divBarraPesquisa:hover > .barraPesquisa{
+            width: 220px;
+            padding: 0 6px;
+}
+
+
+    .logo-img {
+width: 18%;
+height: 13.5%;
+position: fixed;
+margin-right: 75%;
+margin-top: -1.4%;
+
+
+    }
+    .logo {
+        text-transform: uppercase;
+        letter-spacing: 4px;
+        color: #00ffdd;
+        display: flex;
+        font-weight: 700;
+        margin-right: -2%;
+        font-size: 33px;
+        margin-top: 0.5%;
+        position: fixed;
+        
+    }    
+    
+    
+    nav{
+        display: flex;
+        font-family: sans-serif;
+        background: #23232e;
+        height: 9vh;
+    
+    }
+    
+    
+    .menu .linha1{
+margin: 7px;
+    }
+    .menu .linha2{
+        margin: 7px;
+    }
+    .menu .linha3{
+        margin: 7px;
+    }
+    
+    
+    
+    
+    .navlist li {
+        letter-spacing: 3px;
+        margin-left: 302px;
+        margin-left: 0;
+    opacity: 0;    
+    }
+    
+    .menu {
+         /*esconde o icone*/
+        cursor: pointer;
+        position: absolute;
+        margin-top: 0.5%;
+        display:block;
+        margin-left: 80%;
+    }
+
+ 
+    
+    .quadrado{ 
+
+        height: 65%;
+        width: 80%;
+        border: 3px solid aqua;
+        margin: 35px;
+        margin-top: 25px;
+    }
+
+    
+    .quadrado img{
+        margin-right: 100%;
+        max-width: 100%;
+        height: 100%;
+        width: 265px;
+    }
+
+.quadrado1{
+    height: 65%;
+    width: 80%;
+    border: 3px solid aqua;
+    margin: 35px;
+    margin-top: 25px;
+}
+
+.quadrado1 img{
+    margin-right: 100%;
+    max-width: 100%;
+    height: 100%;
+    width: 265px;
+}
+   
+
+.texto{
+    
+    margin-right: -1%;
+font-size: 1vw;
+color: aqua;
+text-transform: uppercase;
+    font-size: 2em;
+    color: transparent;
+    background: linear-gradient(to right,#36648a,#6612ee,#071ff8, rgba(29, 26, 26, 0.133))no-repeat;/*#ff00,#fffb00,#0ff,#0f0,#00f*/
+    -webkit-background-clip: text;
+    background-size: 30%;
+    animation: cores 10s linear infinite;
+    font-family: tahoma;
+}
+
+.estrela{
+    
+    margin-left: 35px;
+    font-size: 20px;
+    color: aqua;
+}
+.nomefil{
+    max-width: 10px;
+    margin-top: -27px;
+    margin-left: 35px;
+    font-size: 100%;
+    color: rgb(199, 169, 216);
+}
+
+.navlist{
+    list-style: none;
+    display: flex;
+    z-index: 5;
+    position: absolute;
+    top: 8vh;
+    right: 0;
+    margin-right: -2px;
+    width: 40%;
+    height: 100vh;
+    background: #23232e;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+    transform: translateX(100%);
+    transition: transform 0.5s ease-in;
+}
+
+
+.menu div {
+    width: 29px;
+    height: 2px;
+    background: #fff;
+    margin: 8px;
+    margin-left: 120px;
+}
+
+
+
+.main{
+    width: 20px;
+    height: 27px;
+}
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*para tell*/
+@media (min-width: 1367px) and (max-width: 1555px) { 
+    body{
+         
+        margin: 0;
+        padding: 0;
+        min-height: 100%;
+        height: 100%;
+    }
+    
+    
+    .divBarraPesquisa{
+        margin-left: 48%;
+        height: 20px;
+        padding: 20px;
+        border-radius: 40px;
+        background:rgba(14, 186, 209, 0.623) ;
+        box-shadow: 1px 2px 4px rgb(0, 225, 255) ;
+        display: flex;
+        margin-top: 0.5%;
+        align-items: center;
+        }
+
+
+        .barraPesquisa{
+            border:none;
+            background: none;
+            outline: none;
+            padding: 0;
+            color: rgb(255, 255, 255);
+            text-shadow: 1px 2px 4px rgb(255, 255, 255);
+            font-size: 16px;
+            line-height: 40px;
+            width: 0;
+            transition: .4s;
+            font-family:'Source Sans Pro' ;
+            }
+
+            ::-webkit-input-placeholder{
+                color:rgb(255, 255, 255);
+            }
+            
+            .botaoBarraPesquisa{
+            width: 40px;
+            height: 40px;
+            border-radius: 50%;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            
+            }
+            
+            
+            .divBarraPesquisa:hover > .barraPesquisa{
+            width: 200px;
+            padding: 0 6px;
+}
+
+
+    .logo-img {
+width: 16%;
+height: 13.5%;
+position: fixed;
+margin-right: 75%;
+margin-top: -1.4%;
+
+
+    }
+    .logo {
+        text-transform: uppercase;
+        letter-spacing: 4px;
+        color: #00ffdd;
+        display: flex;
+        font-weight: 700;
+        margin-right: -2%;
+        font-size: 33px;
+        margin-top: 0.5%;
+        position: fixed;
+        
+    }    
+    
+    
+    nav{
+        display: flex;
+        font-family: sans-serif;
+        background: #23232e;
+        height: 9vh;
+    
+    }
+    
+    
+    .menu .linha1{
+margin: 7px;
+    }
+    .menu .linha2{
+        margin: 7px;
+    }
+    .menu .linha3{
+        margin: 7px;
+    }
+    
+    
+    
+    
+    .navlist li {
+        letter-spacing: 3px;
+        margin-left: 302px;
+        margin-left: 0;
+    opacity: 0;    
+    }
+    
+    .menu {
+         /*esconde o icone*/
+        cursor: pointer;
+        position: absolute;
+        margin-top: 0.5%;
+        display:block;
+        margin-left: 80%;
+    }
+
+ 
+    
+    .quadrado{ 
+
+        height: 65%;
+        width: 80%;
+        border: 3px solid aqua;
+        margin: 27px;
+        margin-top: 25px;
+    }
+
+    
+    .quadrado img{
+        margin-right: 100%;
+        max-width: 100%;
+        height: 100%;
+        width: 220px;
+    }
+
+.quadrado1{
+    
+    height: 65%;
+    width: 80%;
+    border: 3px solid aqua;
+    margin: 27px;
+    margin-top: 25px;
+}
+
+.quadrado1 img{
+    margin-right: 100%;
+        max-width: 100%;
+        height: 100%;
+        width: 220px;
+}
+   
+
+.texto{
+    
+    margin-right: -1%;
+font-size: 1vw;
+color: aqua;
+text-transform: uppercase;
+    font-size: 2em;
+    color: transparent;
+    background: linear-gradient(to right,#36648a,#6612ee,#071ff8, rgba(29, 26, 26, 0.133))no-repeat;/*#ff00,#fffb00,#0ff,#0f0,#00f*/
+    -webkit-background-clip: text;
+    background-size: 30%;
+    animation: cores 10s linear infinite;
+    font-family: tahoma;
+}
+
+.estrela{
+    
+    margin-left: 29px;
+    font-size: 20px;
+    color: aqua;
+}
+.nomefil{
+    max-width: 10px;
+    margin-top: -27px;
+    margin-left: 29px;
+    font-size: 100%;
+    color: rgb(199, 169, 216);
+}
+
+.navlist{
+    list-style: none;
+    display: flex;
+    z-index: 5;
+    position: absolute;
+    top: 8vh;
+    right: 0;
+    margin-right: -2px;
+    width: 40%;
+    height: 100vh;
+    background: #23232e;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+    transform: translateX(100%);
+    transition: transform 0.5s ease-in;
+}
+
+
+.menu div {
+    width: 29px;
+    height: 2px;
+    background: #fff;
+    margin: 8px;
+    margin-left: 120px;
+}
+
+
+
+.main{
+    width: 20px;
+    height: 27px;
+}
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*para tell*/
+@media (min-width: 1240px) and (max-width: 1366px) { 
+    body{
+         
+        margin: 0;
+        padding: 0;
+        min-height: 100%;
+        height: 100%;
+    }
+    
+    
+    .divBarraPesquisa{
+        margin-left: 50%;
+        height: 20px;
+        padding: 20px;
+        border-radius: 40px;
+        background:rgba(14, 186, 209, 0.623) ;
+        box-shadow: 1px 2px 4px rgb(0, 225, 255) ;
+        display: flex;
+        margin-top: 0.5%;
+        position: static;
+        align-items: center;
+        }
+
+
+        .barraPesquisa{
+            border:none;
+            background: none;
+            outline: none;
+            padding: 0;
+            color: rgb(255, 255, 255);
+            text-shadow: 1px 2px 4px rgb(255, 255, 255);
+            font-size: 16px;
+            line-height: 40px;
+            width: 0;
+            transition: .4s;
+            font-family:'Source Sans Pro' ;
+            }
+
+            ::-webkit-input-placeholder{
+                color:rgb(255, 255, 255);
+            }
+            
+            .botaoBarraPesquisa{
+            width: 40px;
+            height: 40px;
+            border-radius: 50%;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            
+            }
+            
+            
+            .divBarraPesquisa:hover > .barraPesquisa{
+            width: 200px;
+            padding: 0 6px;
+}
+    
+
+
+
+.logo-img {
+    width: 16%;
+    height: 13.5%;
+    position: fixed;
+    margin-right: 75%;
+    margin-top: -1.4%;
+    
+    
+        }
+        .logo {
+            text-transform: uppercase;
+            letter-spacing: 4px;
+            color: #00ffdd;
+            font-weight: 700;
+            margin-right: -5%;
+            font-size: 33px;
+            margin-top: 0.5%;
+            position: absolute;
+            
+        }    
+
+
+
+
+
+
+    nav{
+        display: flex;
+        font-family: sans-serif;
+        background: #23232e;
+        height: 9vh;
+    
+    }
+    
+    
+    .menu .linha1{
+margin: 7px;
+    }
+    .menu .linha2{
+        margin: 7px;
+    }
+    .menu .linha3{
+        margin: 7px;
+    }
+    
+    
+    
+    
+    .navlist li {
+        letter-spacing: 3px;
+        margin-left: 302px;
+        margin-left: 0;
+    opacity: 0;    
+    }
+    
+    .menu {
+         /*esconde o icone*/
+        cursor: pointer;
+        position: absolute;
+        margin-top: 0.5%;
+        display:block;
+        margin-left: 80%;
+    }
+
+ 
+    
+    .quadrado{ 
+
+        height: 65%;
+        width: 80%;
+        border: 3px solid aqua;
+        margin: 25px;
+        margin-top: 25px;
+    }
+
+    
+    .quadrado img{
+        margin-right: 100%;
+        max-width: 100%;
+        height: 100%;
+        width: 190px;
+    }
+
+.quadrado1{
+    height: 65%;
+    width: 80%;
+    border: 3px solid aqua;
+    margin: 25px;
+    margin-top: 25px;
+}
+
+.quadrado1 img{
+    margin-right: 100%;
+        max-width: 100%;
+        height: 100%;
+        width: 190px;
+}
+   
+
+.texto{
+    
+    margin-right: -1%;
+font-size: 1vw;
+color: aqua;
+text-transform: uppercase;
+    font-size: 2em;
+    color: transparent;
+    background: linear-gradient(to right,#36648a,#6612ee,#071ff8, rgba(29, 26, 26, 0.133))no-repeat;/*#ff00,#fffb00,#0ff,#0f0,#00f*/
+    -webkit-background-clip: text;
+    background-size: 30%;
+    animation: cores 10s linear infinite;
+    font-family: tahoma;
+}
+
+.estrela{
+    
+    margin-left: 26px;
+    font-size: 20px;
+    color: aqua;
+}
+.nomefil{
+    max-width: 10px;
+    margin-top: -27px;
+    margin-left: 26px;
+    font-size: 100%;
+    color: rgb(199, 169, 216);
+}
+
+.navlist{
+    list-style: none;
+    display: flex;
+    z-index: 5;
+    position: absolute;
+    top: 8vh;
+    right: 0;
+    margin-right: -2px;
+    width: 40%;
+    height: 100vh;
+    background: #23232e;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+    transform: translateX(100%);
+    transition: transform 0.5s ease-in;
+}
+
+
+.menu div {
+    width: 29px;
+    height: 2px;
+    background: #fff;
+    margin: 8px;
+    margin-left: 120px;
+}
+
+
+
+.main{
+    width: 20px;
+    height: 27px;
+}
+}
+
+
+
+
+
+
+
+
+/*para tell*/
+@media (min-width: 995px) and (max-width: 1239px) { 
+    body{
+        
+        margin: 0;
+        padding: 0;
+        min-height: 100%;
+        height: 100%;
+    }
+    
+    
+    .divBarraPesquisa{
+        margin-left: 48%;
+        height: 20px;
+        padding: 20px;
+        border-radius: 40px;
+        background:rgba(14, 186, 209, 0.623) ;
+        box-shadow: 1px 2px 4px rgb(0, 225, 255) ;
+        display: flex;
+        margin-top: 0.5%;
+        align-items: center;
+        }
+
+
+        .barraPesquisa{
+            border:none;
+            background: none;
+            outline: none;
+            padding: 0;
+            color: rgb(255, 255, 255);
+            text-shadow: 1px 2px 4px rgb(255, 255, 255);
+            font-size: 16px;
+            line-height: 40px;
+            width: 0;
+            transition: .4s;
+            font-family:'Source Sans Pro' ;
+            }
+
+            ::-webkit-input-placeholder{
+                color:rgb(255, 255, 255);
+            }
+            
+            .botaoBarraPesquisa{
+            width: 40px;
+            height: 40px;
+            border-radius: 50%;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            
+            }
+            .bnt{
+                width: 100%;
+                border: none;
+
+            }
+
+            .divBarraPesquisa:hover > .barraPesquisa{
+            width: 200px;
+            padding: 0 6px;
+}
+
+
+    .logo-img {
+width: 16%;
+height: 13.5%;
+position: absolute;
+margin-right: 75%;
+margin-top: -1.4%;
+
+
+    }
+    .logo {
+        text-transform: uppercase;
+        letter-spacing: 4px;
+        color: #00ffdd;
+        display: flex;
+        font-weight: 700;
+        margin-right: -2%;
+        font-size: 33px;
+        margin-top: 0.5%;
+        position: fixed;
+        
+    }    
+    
+    
+    nav{
+        display: flex;
+        font-family: sans-serif;
+        background: #23232e;
+        height: 9vh;
+    
+    }
+    
+    
+    .menu .linha1{
+margin: 7px;
+    }
+    .menu .linha2{
+        margin: 7px;
+    }
+    .menu .linha3{
+        margin: 7px;
+    }
+    
+    
+    
+    
+    .navlist li {
+        letter-spacing: 3px;
+        margin-left: 302px;
+        margin-left: 0;
+    opacity: 0;    
+    }
+    
+    .menu {
+         /*esconde o icone*/
+        cursor: pointer;
+        position: absolute;
+        margin-top: 0.5%;
+        display:block;
+        margin-left: 80%;
+    }
+
+ 
+    
+    .quadrado{ 
+
+        height: 65%;
+        width: 80%;
+        border: 3px solid aqua;
+        margin: 22px;
+        margin-top: 35px;
+    }
+
+    
+    .quadrado img{
+        margin-right: 100%;
+        max-width: 100%;
+        height: 100%;
+        width: 170px;
+    }
+
+.quadrado1{
+    height: 65%;
+    width: 80%;
+    border: 3px solid aqua;
+    margin: 22px;
+    margin-top: 35px;
+}
+
+.quadrado1 img{
+    margin-right: 100%;
+    max-width: 100%;
+    height: 100%;
+    width: 170px;
+}
+   
+
+.texto{
+    
+    margin-right: -1%;
+font-size: 1vw;
+color: aqua;
+text-transform: uppercase;
+    font-size: 2em;
+    color: transparent;
+    background: linear-gradient(to right,#36648a,#6612ee,#071ff8, rgba(29, 26, 26, 0.133))no-repeat;/*#ff00,#fffb00,#0ff,#0f0,#00f*/
+    -webkit-background-clip: text;
+    background-size: 30%;
+    animation: cores 10s linear infinite;
+    font-family: tahoma;
+}
+
+.estrela{
+    
+    margin-left: 21px;
+    font-size: 20px;
+    color: aqua;
+}
+.nomefil{
+    max-width: 10px;
+    margin-top: -27px;
+    margin-left: 21px;
+    font-size: 100%;
+    color: rgb(199, 169, 216);
+}
+
+.navlist{
+    list-style: none;
+    display: flex;
+    z-index: 5;
+    position: absolute;
+    top: 8vh;
+    right: 0;
+    margin-right: -2px;
+    width: 40%;
+    height: 100vh;
+    background: #23232e;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+    transform: translateX(100%);
+    transition: transform 0.5s ease-in;
+}
+
+
+.menu div {
+    width: 29px;
+    height: 2px;
+    background: #fff;
+    margin: 8px;
+    margin-left: 120px;
+}
+
+
+
+.main{
+    width: 20px;
+    height: 27px;
+}
+}
+
+
+
+
+
+
+
+
+
+
+/*para tell*/
+@media (min-width: 801px) and (max-width: 994px) { 
+    body{
+       
+        margin: 0;
+        padding: 0;
+        min-height: 100%;
+        height: 100%;
+    }
+    
+    
+    .divBarraPesquisa{
+        margin-left: 46%;
+        height: 20px;
+        padding: 20px;
+        border-radius: 40px;
+        background:rgba(14, 186, 209, 0.623) ;
+        box-shadow: 1px 2px 4px rgb(0, 225, 255) ;
+        display: flex;
+        margin-top: 0.5%;
+        align-items: center;
+        }
+
+
+        .barraPesquisa{
+            border:none;
+            background: none;
+            outline: none;
+            padding: 0;
+            color: rgb(255, 255, 255);
+            text-shadow: 1px 2px 4px rgb(255, 255, 255);
+            font-size: 16px;
+            line-height: 40px;
+            width: 0;
+            transition: .4s;
+            font-family:'Source Sans Pro' ;
+            }
+
+            ::-webkit-input-placeholder{
+                color:rgb(255, 255, 255);
+            }
+            
+            .botaoBarraPesquisa{
+            width: 40px;
+            height: 40px;
+            border-radius: 50%;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            
+            }
+            
+            
+            .divBarraPesquisa:hover > .barraPesquisa{
+            width: 120px;
+            padding: 0 6px;
+}
+
+
+    .logo-img {
+width: 14%;
+height: 10%;
+position: fixed;
+margin-right: 75%;
+margin-top: -1%;
+position: absolute;
+
+
+    }
+    .logo {
+        text-transform: uppercase;
+        letter-spacing: 4px;
+        color: #00ffdd;
+        display: flex;
+        font-weight: 700;
+        margin-right: -10%;
+        font-size: 23px;
+        margin-top: 1%;
+        position: fixed;
+        
+    }    
+    
+    
+    nav{
+        display: flex;
+        font-family: sans-serif;
+        background: #23232e;
+        height: 8vh;
+    
+    }
+    
+    
+    .menu .linha1{
+margin: 7px;
+    }
+    .menu .linha2{
+        margin: 7px;
+    }
+    .menu .linha3{
+        margin: 7px;
+    }
+    
+    
+    
+    
+    .navlist li {
+        letter-spacing: 3px;
+        margin-left: 302px;
+        margin-left: 0;
+    opacity: 0;    
+    }
+    
+    .menu {
+         /*esconde o icone*/
+        cursor: pointer;
+        position: absolute;
+        margin-top: 0.5%;
+        display:block;
+        margin-left: 80%;
+    }
+
+ 
+    
+    .quadrado{ 
+
+        height: 55%;
+        width: 70%;
+        border: 3px solid aqua;
+        margin: 10px;
+        margin-top: 25px;
+    }
+
+    
+    .quadrado img{
+        margin-right: 100%;
+        max-width: 100%;
+        height: 100%;
+        width: 150px;
+    }
+
+.quadrado1{
+    height: 55%;
+    width: 70%;
+    border: 3px solid aqua;
+    margin: 10px;
+    margin-top: 25px;
+}
+
+.quadrado1 img{
+    margin-right: 100%;
+    max-width: 100%;
+    height: 100%;
+    width: 150px;
+}
+   
+
+.texto{
+    
+    margin-right: -1%;
+font-size: 1vw;
+color: aqua;
+text-transform: uppercase;
+    font-size: 1.5em;
+    color: transparent;
+    background: linear-gradient(to right,#36648a,#6612ee,#071ff8, rgba(29, 26, 26, 0.133))no-repeat;/*#ff00,#fffb00,#0ff,#0f0,#00f*/
+    -webkit-background-clip: text;
+    background-size: 30%;
+    animation: cores 10s linear infinite;
+    font-family: tahoma;
+}
+
+.estrela{
+    
+    margin-left: 10px;
+    font-size: 20px;
+    color: aqua;
+}
+.nomefil{
+    max-width: 10px;
+    margin-top: -27px;
+    margin-left: 10px;
+    font-size: 110%;
+    color: rgb(199, 169, 216);
+}
+
+.navlist{
+    list-style: none;
+    display: flex;
+    z-index: 5;
+    position: absolute;
+    top: 8vh;
+    right: 0;
+    margin-right: -2px;
+    width: 40%;
+    height: 100vh;
+    background: #23232e;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+    transform: translateX(100%);
+    transition: transform 0.5s ease-in;
+}
+
+
+.menu div {
+    width: 29px;
+    height: 2px;
+    background: #fff;
+    margin: 8px;
+    margin-left: 120px;
+}
+
+
+
+.main{
+    width: 20px;
+    height: 27px;
+}
+}
+
+
+
+
+
+
+
+
+/*para tell*/
+@media (min-width: 734px) and (max-width: 800px) { 
+    body{
+         
+        margin: 0;
+        padding: 0;
+        min-height: 100%;
+        height: 100%;
+    }
+    
+    
+    .divBarraPesquisa{
+        margin-left: 45%;
+        height: 20px;
+        padding: 20px;
+        border-radius: 40px;
+        background:rgba(14, 186, 209, 0.623) ;
+        box-shadow: 1px 2px 4px rgb(0, 225, 255) ;
+        display: flex;
+        margin-top: 0.5%;
+        align-items: center;
+        }
+
+
+        .barraPesquisa{
+            border:none;
+            background: none;
+            outline: none;
+            padding: 0;
+            color: rgb(255, 255, 255);
+            text-shadow: 1px 2px 4px rgb(255, 255, 255);
+            font-size: 16px;
+            line-height: 40px;
+            width: 0;
+            transition: .4s;
+            font-family:'Source Sans Pro' ;
+            }
+
+            ::-webkit-input-placeholder{
+                color:rgb(255, 255, 255);
+            }
+            
+            .botaoBarraPesquisa{
+            width: 40px;
+            height: 40px;
+            border-radius: 50%;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            
+            }
+            
+            
+            .divBarraPesquisa:hover > .barraPesquisa{
+            width: 100px;
+            padding: 0 6px;
+}
+
+
+    .logo-img {
+width: 14%;
+height: 10%;
+position: fixed;
+margin-right: 75%;
+margin-top: -1%;
+position: absolute;
+
+    }
+    .logo {
+        text-transform: uppercase;
+        letter-spacing: 4px;
+        color: #00ffdd;
+        display: flex;
+        font-weight: 700;
+        margin-right: -10%;
+        font-size: 23px;
+        margin-top: 1%;
+        position: fixed;
+        
+    }    
+    
+    
+    nav{
+        display: flex;
+        font-family: sans-serif;
+        background: #23232e;
+        height: 8vh;
+    
+    }
+    
+    
+    .menu .linha1{
+margin: 7px;
+    }
+    .menu .linha2{
+        margin: 7px;
+    }
+    .menu .linha3{
+        margin: 7px;
+    }
+
+    .navlist li {
+        letter-spacing: 3px;
+        margin-left: 302px;
+        margin-left: 0;
+    opacity: 0;    
+    }
+    
+    .menu {
+         /*esconde o icone*/
+        cursor: pointer;
+        position: absolute;
+        display:block;
+        margin-left: 75%;
+    }
+
+ 
+    .quadrado{ 
+        height: 50%;
+        width: 65%;
+        border: 3px solid aqua;
+        margin: 25px;
+        margin-top: 25px;
+    }
+
+    
+.quadrado img{
+    margin-right: 100%;
+    max-width: 100%;
+    height: 100%;
+    width: 96px;
+}
+
+.quadrado1{
+    height: 50%;
+    width: 65%;
+    border: 3px solid aqua;
+    margin: 25px;
+    margin-top: 25px;
+}
+
+.quadrado1 img{
+    margin-right: 100%;
+    max-width: 100%;
+    height: 100%;
+    width: 96px;
+}
+   
+
+.texto{
+    margin-left: -2%;
+color: aqua;
+text-transform: uppercase;
+    font-size: 90%;
+    color: transparent;
+    background: linear-gradient(to right,#36648a,#6612ee,#071ff8, rgba(29, 26, 26, 0.133))no-repeat;/*#ff00,#fffb00,#0ff,#0f0,#00f*/
+    -webkit-background-clip: text;
+    background-size: 30%;
+    animation: cores 10s linear infinite;
+    font-family: tahoma;
+}
+
+.estrela{
+    
+    margin-left: 25px;
+    font-size: 15px;
+    color: aqua;
+}
+.nomefil{
+    max-width: 10px;
+    margin-top: -27px;
+    margin-left: 25px;
+    font-size: 100%;
+    color: rgb(199, 169, 216);
+}
+
+.navlist{
+    list-style: none;
+    display: flex;
+    z-index: 5;
+    position: absolute;
+    top: 8vh;
+    right: 0;
+    margin-right: -2px;
+    width: 40%;
+    height: 100vh;
+    background: #23232e;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+    transform: translateX(100%);
+    transition: transform 0.5s ease-in;
+}
+
+
+.menu div {
+    width: 29px;
+    height: 2px;
+    background: #fff;
+    margin: 8px;
+    margin-left: 120px;
+}
+
+
+
+.main{
+    width: 20px;
+    height: 27px;
+}
+}
+
+
+
+
+
+
+/*para tell*/
+@media (min-width: 723px) and (max-width: 733px) { 
+    body{
+         
+        margin: 0;
+        padding: 0;
+        min-height: 100%;
+        height: 100%;
+    }
+    
+    .divBarraPesquisa{
+        margin-left: 45%;
+        height: 20px;
+        padding: 20px;
+        border-radius: 40px;
+        background:rgba(14, 186, 209, 0.623) ;
+        box-shadow: 1px 2px 4px rgb(0, 225, 255) ;
+        display: flex;
+        margin-top: 0.5%;
+        align-items: center;
+        }
+
+
+        .barraPesquisa{
+            border:none;
+            background: none;
+            outline: none;
+            padding: 0;
+            color: rgb(255, 255, 255);
+            text-shadow: 1px 2px 4px rgb(255, 255, 255);
+            font-size: 16px;
+            line-height: 40px;
+            width: 0;
+            transition: .4s;
+            font-family:'Source Sans Pro' ;
+            }
+
+            ::-webkit-input-placeholder{
+                color:rgb(255, 255, 255);
+            }
+            
+            .botaoBarraPesquisa{
+            width: 40px;
+            height: 40px;
+            border-radius: 50%;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            
+            }
+            
+            
+            .divBarraPesquisa:hover > .barraPesquisa{
+            width: 100px;
+            padding: 0 6px;
+}
+
+
+    .logo-img {
+width: 14%;
+height: 10%;
+position: fixed;
+margin-right: 75%;
+margin-top: -1%;
+position: absolute;
+
+    }
+    .logo {
+        text-transform: uppercase;
+        letter-spacing: 4px;
+        color: #00ffdd;
+        display: flex;
+        font-weight: 700;
+        margin-right: -10%;
+        font-size: 23px;
+        margin-top: 1%;
+        position: fixed;
+        
+    }    
+    
+    
+    nav{
+        display: flex;
+        font-family: sans-serif;
+        background: #23232e;
+        height: 8vh;
+    
+    }
+    
+    
+    .menu .linha1{
+margin: 7px;
+    }
+    .menu .linha2{
+        margin: 7px;
+    }
+    .menu .linha3{
+        margin: 7px;
+    }
+
+    .navlist li {
+        letter-spacing: 3px;
+        margin-left: 302px;
+        margin-left: 0;
+    opacity: 0;    
+    }
+    
+    .menu {
+         /*esconde o icone*/
+        cursor: pointer;
+        position: absolute;
+        display:block;
+        margin-left: 75%;
+    }
+
+ 
+    .quadrado{ 
+        height: 50%;
+        width: 65%;
+        border: 3px solid aqua;
+        margin: 25px;
+        margin-top: 25px;
+    }
+
+    
+.quadrado img{
+    margin-right: 100%;
+    max-width: 100%;
+    height: 100%;
+    width: 96px;
+}
+
+.quadrado1{
+    height: 50%;
+    width: 65%;
+    border: 3px solid aqua;
+    margin: 25px;
+    margin-top: 25px;
+}
+
+.quadrado1 img{
+    margin-right: 100%;
+    max-width: 100%;
+    height: 100%;
+    width: 96px;
+}
+   
+   
+
+.texto{
+    margin-right: 1%;
+color: aqua;
+text-transform: uppercase;
+    font-size: 80%;
+    color: transparent;
+    background: linear-gradient(to right,#36648a,#6612ee,#071ff8, rgba(29, 26, 26, 0.133))no-repeat;/*#ff00,#fffb00,#0ff,#0f0,#00f*/
+    -webkit-background-clip: text;
+    background-size: 30%;
+    animation: cores 10s linear infinite;
+    font-family: tahoma;
+}
+
+.estrela{
+    
+    margin-left: 25px;
+    font-size: 15px;
+    color: aqua;
+}
+.nomefil{
+    max-width: 10px;
+    margin-top: -27px;
+    margin-left: 25px;
+    font-size: 100%;
+    color: rgb(199, 169, 216);
+}
+
+.navlist{
+    list-style: none;
+    display: flex;
+    z-index: 5;
+    position: absolute;
+    top: 8vh;
+    right: 0;
+    margin-right: -2px;
+    width: 40%;
+    height: 100vh;
+    background: #23232e;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+    transform: translateX(100%);
+    transition: transform 0.5s ease-in;
+}
+
+
+.menu div {
+    width: 29px;
+    height: 2px;
+    background: #fff;
+    margin: 8px;
+    margin-left: 120px;
+}
+
+
+
+.main{
+    width: 20px;
+    height: 27px;
+}
+}
+
+
+
+
+
+
+/*para tell*/
+@media (min-width: 676px) and (max-width: 722px) { 
+    body{
+         
+        margin: 0;
+        padding: 0;
+        min-height: 100%;
+        height: 100%;
+    }
+    
+    
+    .divBarraPesquisa{
+        margin-left: 42%;
+        height: 20px;
+        padding: 20px;
+        border-radius: 40px;
+        background:rgba(14, 186, 209, 0.623) ;
+        box-shadow: 1px 2px 4px rgb(0, 225, 255) ;
+        display: flex;
+        margin-top: 0.5%;
+        align-items: center;
+        }
+
+
+        .barraPesquisa{
+            border:none;
+            background: none;
+            outline: none;
+            padding: 0;
+            color: rgb(255, 255, 255);
+            text-shadow: 1px 2px 4px rgb(255, 255, 255);
+            font-size: 16px;
+            line-height: 40px;
+            width: 0;
+            transition: .4s;
+            font-family:'Source Sans Pro' ;
+            }
+
+            ::-webkit-input-placeholder{
+                color:rgb(255, 255, 255);
+            }
+            
+            .botaoBarraPesquisa{
+            width: 40px;
+            height: 40px;
+            border-radius: 50%;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            
+            }
+            
+            
+            .divBarraPesquisa:hover > .barraPesquisa{
+            width: 100px;
+            padding: 0 6px;
+}
+
+
+    .logo-img {
+width: 14%;
+height: 10%;
+position: fixed;
+margin-right: 85%;
+margin-top: -1%;
+position: absolute;
+
+    }
+    .logo {
+        text-transform: uppercase;
+        letter-spacing: 4px;
+        color: #00ffdd;
+        display: flex;
+        font-weight: 700;
+        margin-right: -5%;
+        font-size: 23px;
+        margin-top: 1%;
+        position: fixed;
+        
+    }    
+    
+    
+    nav{
+        display: flex;
+        font-family: sans-serif;
+        background: #23232e;
+        height: 8vh;
+    
+    }
+    
+    
+    .menu .linha1{
+margin: 7px;
+    }
+    .menu .linha2{
+        margin: 7px;
+    }
+    .menu .linha3{
+        margin: 7px;
+    }
+
+    .navlist li {
+        letter-spacing: 3px;
+        margin-left: 302px;
+        margin-left: 0;
+    opacity: 0;    
+    }
+    
+    
+    
+    
+    .navlist li {
+        letter-spacing: 3px;
+        margin-left: 302px;
+        margin-left: 0;
+    opacity: 0;    
+    }
+    
+    .menu {
+         /*esconde o icone*/
+        cursor: pointer;
+        position: absolute;
+        display:block;
+        margin-left: 75%;
+    }
+
+ 
+    .quadrado{ 
+
+        height: 50%;
+        width: 65%;
+        border: 3px solid aqua;
+        margin: 20px;
+        margin-top: 25px;
+    }
+
+    
+.quadrado img{
+    margin-right: 100%;
+    max-width: 100%;
+    height: 100%;
+    width: 96px;
+}
+
+.quadrado1{
+    height: 50%;
+    width: 65%;
+    border: 3px solid aqua;
+    margin: 25px;
+    margin-top: 25px;
+}
+
+.quadrado1 img{
+    margin-right: 100%;
+    max-width: 100%;
+    height: 100%;
+    width: 96px;
+}
+   
+
+.texto{
+    margin-right: -6%;
+font-size: 1vw;
+color: aqua;
+text-transform: uppercase;
+    font-size: 1em;
+    color: transparent;
+    background: linear-gradient(to right,#36648a,#6612ee,#071ff8, rgba(29, 26, 26, 0.133))no-repeat;/*#ff00,#fffb00,#0ff,#0f0,#00f*/
+    -webkit-background-clip: text;
+    background-size: 30%;
+    animation: cores 10s linear infinite;
+    font-family: tahoma;
+}
+
+.estrela{
+    
+    margin-left: 15px;
+    font-size: 15px;
+    color: aqua;
+}
+.nomefil{
+    max-width: 10px;
+    margin-top: -27px;
+    margin-left: 20px;
+    font-size: 100%;
+    color: rgb(199, 169, 216);
+}
+
+.navlist{
+    list-style: none;
+    display: flex;
+    z-index: 5;
+    position: absolute;
+    top: 8vh;
+    right: 0;
+    margin-right: -2px;
+    width: 40%;
+    height: 100vh;
+    background: #23232e;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+    transform: translateX(100%);
+    transition: transform 0.5s ease-in;
+}
+
+
+.menu div {
+    width: 29px;
+    height: 2px;
+    background: #fff;
+    margin: 8px;
+    margin-left: 120px;
+}
+
+
+
+.main{
+    width: 20px;
+    height: 27px;
+}
+}
+
+
+
+
+
+
+
+/*para tell*/
+@media (min-width: 632px) and (max-width: 675px) { 
+    body{
+         
+        margin: 0;
+        padding: 0;
+        min-height: 100%;
+        height: 100%;
+    }
+    
+    
+    .divBarraPesquisa{
+        margin-left: 42%;
+        height: 20px;
+        padding: 20px;
+        border-radius: 40px;
+        background:rgba(14, 186, 209, 0.623) ;
+        box-shadow: 1px 2px 4px rgb(0, 225, 255) ;
+        display: flex;
+        margin-top: 0.5%;
+        align-items: center;
+        }
+
+
+        .barraPesquisa{
+            border:none;
+            background: none;
+            outline: none;
+            padding: 0;
+            color: rgb(255, 255, 255);
+            text-shadow: 1px 2px 4px rgb(255, 255, 255);
+            font-size: 16px;
+            line-height: 40px;
+            width: 0;
+            transition: .4s;
+            font-family:'Source Sans Pro' ;
+            }
+
+            ::-webkit-input-placeholder{
+                color:rgb(255, 255, 255);
+            }
+            
+            .botaoBarraPesquisa{
+            width: 40px;
+            height: 40px;
+            border-radius: 50%;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            
+            }
+            
+            
+            .divBarraPesquisa:hover > .barraPesquisa{
+            width: 100px;
+            padding: 0 6px;
+}
+
+
+    .logo-img {
+width: 16%;
+height: 10%;
+position: fixed;
+margin-right: 80%;
+margin-top: -1%;
+position: absolute;
+
+    }
+    .logo {
+        text-transform: uppercase;
+        letter-spacing: 4px;
+        color: #00ffdd;
+        display: flex;
+        font-weight: 700;
+        margin-right: -5%;
+        font-size: 23px;
+        margin-top: 2%;
+        position: fixed;
+        
+    }    
+    
+    
+    nav{
+        display: flex;
+        font-family: sans-serif;
+        background: #23232e;
+        height: 8vh;
+    
+    }
+    
+    
+    .menu .linha1{
+margin: 7px;
+    }
+    .menu .linha2{
+        margin: 7px;
+    }
+    .menu .linha3{
+        margin: 7px;
+    }
+
+    .navlist li {
+        letter-spacing: 3px;
+        margin-left: 302px;
+        margin-left: 0;
+    opacity: 0;    
+    }
+    
+    
+    
+    
+    .navlist li {
+        letter-spacing: 3px;
+        margin-left: 302px;
+        margin-left: 0;
+    opacity: 0;    
+    }
+    
+    .menu {
+         /*esconde o icone*/
+        cursor: pointer;
+        position: absolute;
+        display:block;
+        margin-left: 75%;
+    }
+
+ 
+    .quadrado{ 
+
+        height: 50%;
+        width: 65%;
+        border: 3px solid aqua;
+        margin: 15px;
+        margin-top: 25px;
+    }
+
+    
+.quadrado img{
+    margin-right: 100%;
+    max-width: 100%;
+    height: 100%;
+    width: 96px;
+}
+
+.quadrado1{
+    height: 50%;
+    width: 65%;
+    border: 3px solid aqua;
+    margin: 20px;
+    margin-top: 25px;
+}
+
+.quadrado1 img{
+    margin-right: 100%;
+    max-width: 100%;
+    height: 100%;
+    width: 96px;
+}
+   
+
+.texto{
+    margin-right: 5%;
+font-size: 1vw;
+color: aqua;
+text-transform: uppercase;
+    font-size: 1em;
+    color: transparent;
+    background: linear-gradient(to right,#36648a,#6612ee,#071ff8, rgba(29, 26, 26, 0.133))no-repeat;/*#ff00,#fffb00,#0ff,#0f0,#00f*/
+    -webkit-background-clip: text;
+    background-size: 30%;
+    animation: cores 10s linear infinite;
+    font-family: tahoma;
+}
+
+.estrela{
+    
+    margin-left: 15px;
+    font-size: 15px;
+    color: aqua;
+}
+.nomefil{
+    max-width: 10px;
+    margin-top: -27px;
+    margin-left: 20px;
+    font-size: 100%;
+    color: rgb(199, 169, 216);
+}
+
+.navlist{
+    list-style: none;
+    display: flex;
+    z-index: 5;
+    position: absolute;
+    top: 8vh;
+    right: 0;
+    margin-right: -2px;
+    width: 40%;
+    height: 100vh;
+    background: #23232e;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+    transform: translateX(100%);
+    transition: transform 0.5s ease-in;
+}
+
+
+.menu div {
+    width: 29px;
+    height: 2px;
+    background: #fff;
+    margin: 8px;
+    margin-left: 120px;
+}
+
+
+
+.main{
+    width: 20px;
+    height: 27px;
+}
+}
+
+
+
+
+
+
+/*para tell*/
+@media (min-width: 550px) and (max-width: 633px) { 
+    body{
+         
+        margin: 0;
+        padding: 0;
+        min-height: 100%;
+        height: 100%;
+    }
+    
+    
+
+    .divBarraPesquisa{
+        margin-left: 60%;
+        height: 15px;
+        padding: 20px;
+        border-radius: 30px;
+        background:rgba(14, 186, 209, 0.623) ;
+        box-shadow: 1px 2px 4px rgb(0, 225, 255) ;
+        display: flex;
+        margin-top: 1%;
+        align-items: center;
+        }
+    
+    
+        .barraPesquisa{
+            border:none;
+            background: none;
+            outline: none;
+            padding: 0;
+            color: rgb(255, 252, 252);
+            border-radius: 30px;
+            text-shadow: 1px 2px 4px rgb(255, 255, 255);
+            font-size: 14px;
+            line-height: 25px;
+            width: 0;
+            transition: .4s;
+            font-family:'Source Sans Pro' ;
+            }
+    
+            ::-webkit-input-placeholder{
+                color:rgb(255, 255, 255);
+            }
+            
+            .botaoBarraPesquisa{
+            width: 20px;
+            height: 20px;
+            border-radius: 50%;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            
+            }
+            
+            
+            .divBarraPesquisa:hover > .barraPesquisa{
+            width: 80px;
+            padding: 0 4px;
+    }
+    
+    
+    
+    
+    
+    .logo-img {
+    width: 48%;
+    height: 15%;
+    position: fixed;
+    margin-right: -2%;
+    margin-top: -3%;
+    position: absolute;
+    
+    }
+    .logo {
+        text-transform: uppercase;
+        letter-spacing: 4px;
+        text-transform: none;    color: #0077ff;
+        display: flex;
+        font-weight: 700;
+        margin-right: -5%;
+        font-size: 1px;
+        margin-top: 5%;
+        position: fixed;
+        margin: 10px;
+    }    
+    
+    
+    nav{
+        display: flex;
+        font-family: sans-serif;
+        background: #23232e;
+        height: 10vh;
+        width: 110%;
+    
+    }
+    
+    
+    .menu .linha1{
+    margin: 7px;
+    }
+    .menu .linha2{
+        margin: 7px;
+    }
+    .menu .linha3{
+        margin: 7px;
+    }
+    
+    
+    .navlist li {
+        letter-spacing: 3px;
+        margin-left: 5%;
+    opacity: 0;    
+    }
+    
+    
+    .navlist{
+        list-style: none;
+        display: flex;
+        
+    }
+    
+    .navlist{
+        position: absolute;
+        top: 8vh;
+        right: 0;
+        margin-right: 60%;
+        width: 40%;
+        height: 100vh;
+        background: #23232e;
+        flex-direction: column;
+        align-items: center;
+        justify-content: space-around;
+        transform: translateX(-100%);
+        transition: transform 0.5s ease-in;
+    margin-top: 2%;
+    }
+    
+    
+    .logo-img {
+        size: 10%;
+        margin-left: -7%;
+        
+            } 
+    
+    
+    .menu div {
+        width: 29px;
+        height: 2px;
+        background: #fff;
+        margin: 8px;
+        margin-left: 120px;
+    }
+    
+    
+    
+    .main{
+        width: 20px;
+        height: 27px;
+    }
+    
+    .menu {
+         /*esconde o icone*/
+        cursor: pointer;
+        position: absolute;
+        display:block;
+        margin-left: -85%;
+        margin-top: 2%;
+    }
+     
+    .quadrado{ 
+
+        height: 50%;
+        width: 65%;
+        border: 3px solid aqua;
+        margin: 10px;
+        margin-top: 25px;
+    }
+
+    
+.quadrado img{
+    margin-right: 100%;
+    max-width: 100%;
+    height: 100%;
+    width: 96px;
+}
+
+.quadrado1{
+    height: 50%;
+        width: 65%;
+        border: 3px solid aqua;
+        margin: 10px;
+        margin-top: 25px;
+}
+
+.quadrado1 img{
+    margin-right: 100%;
+    max-width: 100%;
+    height: 100%;
+    width: 96px;
+}
+   
+
+.texto{
+    margin-right: 3%;
+font-size: 1vw;
+color: aqua;
+text-transform: uppercase;
+    font-size: 1em;
+    color: transparent;
+    background: linear-gradient(to right,#36648a,#6612ee,#071ff8, rgba(29, 26, 26, 0.133))no-repeat;/*#ff00,#fffb00,#0ff,#0f0,#00f*/
+    -webkit-background-clip: text;
+    background-size: 30%;
+    animation: cores 10s linear infinite;
+    font-family: tahoma;
+}
+
+.estrela{
+    
+    margin-left: 10px;
+    font-size: 80%;
+    color: aqua;
+}
+.nomefil{
+    max-width: 10px;
+    margin-top: -27px;
+    margin-left: 10px;
+    font-size: 80%;
+    color: rgb(199, 169, 216);
+}
+
+}
+
+
+
+
+
+
+
+
+
+/*para tell*/
+@media (min-width: 458px) and (max-width: 549px) { 
+    body{
+         
+         
+    }
+ 
+
+    .quadrado{ 
+        height: 60%;
+        width: 75%;
+        border: 3px solid aqua;
+        margin: 1px;
+        margin-top: 21px;
+    margin-left: 10%;
+    }
+
+    
+.quadrado img{
+    margin-right: 100%;
+    max-width: 100%;
+    height: 100%;
+    width: 96px;
+    
+}
+
+.quadrado1{
+    height: 60%;
+        width: 75%;
+        border: 3px solid aqua;
+        margin: 1px;
+        margin-top: 21px;
+    margin-left: 10%;
+}
+
+.quadrado1 img{
+    margin-right: 100%;
+    max-width: 100%;
+    height: 100%;
+    width: 96px;
+}
+   
+
+.texto{
+    margin-right: -6%;
+font-size: 1vw;
+color: aqua;
+text-transform: uppercase;
+    font-size: 90%;
+    color: transparent;
+    background: linear-gradient(to right,#36648a,#6612ee,#071ff8, rgba(29, 26, 26, 0.133))no-repeat;/*#ff00,#fffb00,#0ff,#0f0,#00f*/
+    -webkit-background-clip: text;
+    background-size: 100%;
+    animation: cores 10s linear infinite;
+    font-family: tahoma;
+}
+
+.estrela{
+    
+    margin-left: 10px;
+    font-size: 10px;
+    color: aqua;
+}
+.nomefil{
+    max-width: 10px;
+    margin-top: -15%;
+    margin-left: 10px;
+    font-size: 60%;
+    color: rgb(199, 169, 216);
+}
+
+
+.divBarraPesquisa{
+    margin-left: 60%;
+    height: 15px;
+    padding: 20px;
+    border-radius: 30px;
+    background:rgba(14, 186, 209, 0.623) ;
+    box-shadow: 1px 2px 4px rgb(0, 225, 255) ;
+    display: flex;
+    margin-top: 2%;
+    align-items: center;
+    }
+
+
+    .barraPesquisa{
+        border:none;
+        background: none;
+        outline: none;
+        padding: 0;
+        color: rgb(255, 252, 252);
+        border-radius: 30px;
+        text-shadow: 1px 2px 4px rgb(255, 255, 255);
+        font-size: 14px;
+        line-height: 25px;
+        width: 0;
+        transition: .4s;
+        font-family:'Source Sans Pro' ;
+        }
+
+        ::-webkit-input-placeholder{
+            color:rgb(255, 255, 255);
+        }
+        
+        .botaoBarraPesquisa{
+        width: 20px;
+        height: 20px;
+        border-radius: 50%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        
+        }
+        
+        
+        .divBarraPesquisa:hover > .barraPesquisa{
+        width: 80px;
+        padding: 0 4px;
+}
+
+
+
+
+
+.logo-img {
+width: 48%;
+height: 14%;
+position: fixed;
+margin-right: -2%;
+margin-top: -3%;
+position: absolute;
+
+}
+.logo {
+    text-transform: uppercase;
+    letter-spacing: 4px;
+    text-transform: none;    color: #0077ff;
+    display: flex;
+    font-weight: 700;
+    margin-right: -5%;
+    font-size: 1px;
+    margin-top: 5%;
+    position: fixed;
+    margin: 10px;
+}    
+
+
+nav{
+    display: flex;
+    font-family: sans-serif;
+    background: #23232e;
+    height: 10vh;
+    width: 110%;
+
+}
+
+
+.menu .linha1{
+margin: 7px;
+}
+.menu .linha2{
+    margin: 7px;
+}
+.menu .linha3{
+    margin: 7px;
+}
+
+
+.navlist li {
+    letter-spacing: 3px;
+    margin-left: 5%;
+opacity: 0;    
+}
+
+
+.navlist{
+    list-style: none;
+    display: flex;
+    
+}
+
+.navlist{
+    position: absolute;
+    top: 8vh;
+    right: 0;
+    margin-right: 60%;
+    width: 40%;
+    height: 100vh;
+    background: #23232e;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+    transform: translateX(-100%);
+    transition: transform 0.5s ease-in;
+margin-top: 2%;
+}
+
+
+.logo-img {
+    size: 10%;
+    margin-left: -7%;
+    
+        } 
+
+
+.menu div {
+    width: 29px;
+    height: 2px;
+    background: #fff;
+    margin: 8px;
+    margin-left: 120px;
+}
+
+
+
+.main{
+    width: 20px;
+    height: 27px;
+}
+
+.menu {
+     /*esconde o icone*/
+    cursor: pointer;
+    position: absolute;
+    display:block;
+    margin-left: -85%;
+    margin-top: 2%;
+}
+
+
+
+}
+
+
+
+
+
+
+
+
+/*para tell*/
+@media (min-width: 360px) and (max-width: 457px) { 
+  
+
+    .quadrado{ 
+        height: 60%;
+        width: 75%;
+        border: 3px solid aqua;
+        margin: 1px;
+        margin-top: 21px;
+    margin-left: 10%;
+    }
+
+    
+.quadrado img{
+    margin-right: 100%;
+    max-width: 100%;
+    height: 100%;
+    width: 96px;
+    
+}
+
+.quadrado1{
+    height: 60%;
+        width: 75%;
+        border: 3px solid aqua;
+        margin: 1px;
+        margin-top: 21px;
+    margin-left: 10%;
+}
+
+.quadrado1 img{
+    margin-right: 100%;
+    max-width: 100%;
+    height: 100%;
+    width: 96px;
+}
+   
+
+.texto{
+    margin-right: -6%;
+font-size: 1vw;
+color: aqua;
+text-transform: uppercase;
+    font-size: 90%;
+    color: transparent;
+    background: linear-gradient(to right,#36648a,#6612ee,#071ff8, rgba(29, 26, 26, 0.133))no-repeat;/*#ff00,#fffb00,#0ff,#0f0,#00f*/
+    -webkit-background-clip: text;
+    background-size: 100%;
+    animation: cores 10s linear infinite;
+    font-family: tahoma;
+}
+
+.estrela{
+    
+    margin-left: 10px;
+    font-size: 10px;
+    color: aqua;
+}
+.nomefil{
+    max-width: 10px;
+    margin-top: -15%;
+    margin-left: 10px;
+    font-size: 60%;
+    color: rgb(199, 169, 216);
+}
+
+
+.divBarraPesquisa{
+    margin-left: 40%;
+    height: 15px;
+    padding: 20px;
+    border-radius: 30px;
+    background:rgba(14, 186, 209, 0.623) ;
+    box-shadow: 1px 2px 4px rgb(0, 225, 255) ;
+    display: flex;
+    margin-top: 2%;
+    align-items: center;
+    }
+
+
+    .barraPesquisa{
+        border:none;
+        background: none;
+        outline: none;
+        padding: 0;
+        color: rgb(255, 252, 252);
+        border-radius: 30px;
+        text-shadow: 1px 2px 4px rgb(255, 255, 255);
+        font-size: 14px;
+        line-height: 25px;
+        width: 0;
+        transition: .4s;
+        font-family:'Source Sans Pro' ;
+        }
+
+        ::-webkit-input-placeholder{
+            color:rgb(255, 255, 255);
+        }
+        
+        .botaoBarraPesquisa{
+        width: 20px;
+        height: 20px;
+        border-radius: 50%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        
+        }
+        
+        
+        .divBarraPesquisa:hover > .barraPesquisa{
+        width: 80px;
+        padding: 0 4px;
+}
+
+
+
+
+
+.logo-img {
+width: 40%;
+height: 13%;
+position: fixed;
+margin-right: 22%;
+margin-top: -3%;
+position: absolute;
+
+}
+.logo {
+    text-transform: uppercase;
+    letter-spacing: 4px;
+    text-transform: none;    color: #0077ff;
+    display: flex;
+    font-weight: 700;
+    margin-right: -5%;
+    font-size: 1px;
+    margin-top: 5%;
+    position: fixed;
+    margin: 10px;
+}    
+
+
+nav{
+    display: flex;
+    font-family: sans-serif;
+    background: #23232e;
+    height: 10vh;
+    width: 110%;
+
+}
+
+
+.menu .linha1{
+margin: 7px;
+}
+.menu .linha2{
+    margin: 7px;
+}
+.menu .linha3{
+    margin: 7px;
+}
+
+
+.navlist li {
+    letter-spacing: 3px;
+    margin-left: 5%;
+opacity: 0;    
+}
+
+
+.navlist{
+    list-style: none;
+    display: flex;
+    
+}
+
+.navlist{
+    position: absolute;
+    top: 8vh;
+    right: 0;
+    margin-right: 60%;
+    width: 40%;
+    height: 100vh;
+    background: #23232e;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+    transform: translateX(-100%);
+    transition: transform 0.5s ease-in;
+margin-top: 2%;
+}
+
+
+.logo-img {
+    size: 10%;
+    margin-left: -7%;
+    
+        } 
+
+
+.menu div {
+    width: 29px;
+    height: 2px;
+    background: #fff;
+    margin: 8px;
+    margin-left: 120px;
+}
+
+
+
+.main{
+    width: 20px;
+    height: 27px;
+}
+
+.menu {
+     /*esconde o icone*/
+    cursor: pointer;
+    position: absolute;
+    display:block;
+    margin-left: -90%;
+    margin-top: 3%;
+}
+
+
+}
+
+
+
+
+
+
+
+/*para tell*/
+@media (min-width: 1px) and (max-width: 359px) { 
+   
+ 
+
+    .quadrado{ 
+        height: 60%;
+        width: 75%;
+        border: 3px solid aqua;
+        margin: 1px;
+        margin-top: 21px;
+    margin-left: 10%;
+    }
+
+    
+.quadrado img{
+    margin-right: 100%;
+    max-width: 100%;
+    height: 100%;
+    width: 96px;
+    
+}
+
+.quadrado1{
+    height: 60%;
+        width: 75%;
+        border: 3px solid aqua;
+        margin: 1px;
+        margin-top: 21px;
+    margin-left: 10%;
+}
+
+.quadrado1 img{
+    margin-right: 100%;
+    max-width: 100%;
+    height: 100%;
+    width: 96px;
+}
+   
+
+.texto{
+    margin-right: -5%;
+font-size: 1vw;
+color: aqua;
+text-transform: uppercase;
+    font-size: 70%;
+    color: transparent;
+    background: linear-gradient(to right,#36648a,#6612ee,#071ff8, rgba(29, 26, 26, 0.133))no-repeat;/*#ff00,#fffb00,#0ff,#0f0,#00f*/
+    -webkit-background-clip: text;
+    background-size: 100%;
+    animation: cores 10s linear infinite;
+    font-family: tahoma;
+}
+
+.estrela{
+    
+    margin-left: 10px;
+    font-size: 10px;
+    color: aqua;
+}
+.nomefil{
+    max-width: 10px;
+    margin-top: -15%;
+    margin-left: 10px;
+    font-size: 60%;
+    color: rgb(199, 169, 216);
+}
+
+
+.divBarraPesquisa{
+    margin-left: 40%;
+    height: 15px;
+    padding: 20px;
+    border-radius: 30px;
+    background:rgba(14, 186, 209, 0.623) ;
+    box-shadow: 1px 2px 4px rgb(0, 225, 255) ;
+    display: flex;
+    margin-top: 2%;
+    align-items: center;
+    }
+
+
+    .barraPesquisa{
+        border:none;
+        background: none;
+        outline: none;
+        padding: 0;
+        color: rgb(255, 252, 252);
+        border-radius: 30px;
+        text-shadow: 1px 2px 4px rgb(255, 255, 255);
+        font-size: 14px;
+        line-height: 25px;
+        width: 0;
+        transition: .4s;
+        font-family:'Source Sans Pro' ;
+        }
+
+        ::-webkit-input-placeholder{
+            color:rgb(255, 255, 255);
+        }
+        
+        .botaoBarraPesquisa{
+        width: 20px;
+        height: 20px;
+        border-radius: 50%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        
+        }
+        
+        
+        .divBarraPesquisa:hover > .barraPesquisa{
+        width: 80px;
+        padding: 0 4px;
+}
+
+
+
+
+
+.logo-img {
+width: 40%;
+height: 13%;
+position: fixed;
+margin-right: 22%;
+margin-top: -3%;
+position: absolute;
+
+}
+.logo {
+    text-transform: uppercase;
+    letter-spacing: 4px;
+    text-transform: none;    color: #0077ff;
+    display: flex;
+    font-weight: 700;
+    margin-right: -5%;
+    font-size: 1px;
+    margin-top: 5%;
+    position: fixed;
+    margin: 10px;
+}    
+
+
+nav{
+    display: flex;
+    font-family: sans-serif;
+    background: #23232e;
+    height: 20vh;
+    width: 110%;
+
+}
+
+
+.menu .linha1{
+margin: 7px;
+}
+.menu .linha2{
+    margin: 7px;
+}
+.menu .linha3{
+    margin: 7px;
+}
+
+
+.navlist li {
+    letter-spacing: 3px;
+    margin-left: 5%;
+opacity: 0;    
+}
+
+
+.navlist{
+    list-style: none;
+    display: flex;
+    
+}
+
+.navlist{
+    position: absolute;
+    top: 8vh;
+    right: 0;
+    margin-right: 60%;
+    width: 40%;
+    height: 100vh;
+    background: #23232e;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+    transform: translateX(-100%);
+    transition: transform 0.5s ease-in;
+margin-top: 2%;
+}
+
+
+.logo-img {
+    size: 10%;
+    margin-left: -7%;
+    
+        } 
+
+
+.menu div {
+    width: 29px;
+    height: 2px;
+    background: #fff;
+    margin: 8px;
+    margin-left: 120px;
+}
+
+
+
+.main{
+    width: 20px;
+    height: 27px;
+}
+
+.menu {
+     /*esconde o icone*/
+    cursor: pointer;
+    position: absolute;
+    display:block;
+    margin-left: -90%;
+    margin-top: 3%;
+}
+}
+
+
+/*controla a animação do navlist*/
+.navlist.active {
+    transform: translateX(0);
+
+    }
+    
+    
+    
+    @keyframes navLinkFade{
+    from{
+    opacity: 0;
+    transform: translateX(100px);
+    }
+    to{
+    opacity: 1;
+    transform: translateX(0);
+    }
+    
+    }
+    
+    
+    
+    
+    
+/*Css responsavel por controlar a parte dos fimes*/
+.banner video{
+position: fixed;
+left: 0;
+right: 0;
+bottom: 0;
+object-fit: cover;
+width: 100%;
+height: 100%;
+
+background-cover:cover;
+right: 100%;
+z-index: -100;
+background: url(fundo.mp4);
+background-size: cover;
+}
+
+
+
+
+
+
+a.link-topo{
+    text-decoration: none;
+    color: white;
+    font-size: 14px;
+    font-size: 14px;
+    font-weight: 700;
+    margin-right: 1000px;    
+    text-decoration: bold;
+   
+}
+
+.link-topo:hover{
+    padding: 8px;
+}
+
+.header{
+    background: #112733;
+    height: 100px;
+    color: #fff;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.logo{
+    width: 300px;
+    margin-left: -50px;
+}
+
+
+
+
+.main{
+    height: 70%;
+    width: 90%;
+border-radius: 20px;
+    background: black;
+    flex-grow: 1;
+    display: flex;
+    flex-direction: row;
+    flex-wrap:wrap;
+    justify-content:center;
+    margin-left: 5%;
+}
+
+
+
+
+
+@keyframes cores {
+    0%{
+        background-position: 0 100%;
+    }
+    50%{
+        background-position:100% 0;
+    }
+    100%{
+        background-position: 0 100%;
+    }
+}
+
+
+.text{
+    font-family: minhafonte;
+    font-size: 50px;
+    color: blue;
+
+}
+
+
+
+
+
+.latest-inside img:hover{
+    transform: scale(1.2);
+    transition: 0.5s;
+    cursor: pointer;
+}
+
+
+.titulo {
+    color: rgb(5, 220, 228);
+    line-height: 3;
+    margin-left: 46%;
+}
+
+
+
+*{
+    box-sizing: border-box;
+}
