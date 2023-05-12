@@ -1,0 +1,184 @@
+/*Responsividade de 320px por 567px*/
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    font-family:Arial, Helvetica, sans-serif;
+    background-color: #2c3541;
+    color:#24c8d0;
+    height: 568px; 
+}
+
+h1{
+    font-size: 23px;
+}
+
+form{
+  height: 100%; 
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-around;
+ 
+}
+
+fieldset{
+display: flex;
+flex-direction: column;
+align-items: center;
+justify-content: space-around;     
+ border-radius: 10px solid #24c8d0;
+ border-color: #24c8d0;
+ background-color: black;
+ border-width: 10px;
+ height: 320px;
+}
+
+.campo{
+display: flex;
+flex-direction: column;
+justify-content: center;
+align-items: center;
+padding: 10px;
+height: 50px;
+}
+
+.campo input:focus{
+    background: #24c8d0;
+}
+
+.campo input[type="text"], .campo input[type="email"],.campo input[type="password"],.campo input[type="tel"]{
+padding: 1%;
+border: 1px solid #24c8d0 ;
+border-radius: 5px;  
+    }
+
+.botao{ 
+padding: 1%;
+width: 35%;
+background: #24c8d0;
+color: #2c3541;
+border-radius: 5px;
+ }
+ 
+ .botao:hover{
+color:#24c8d0;
+ background:#2c3541 ;
+ box-shadow: inset 2px 2px 2px rgb(39, 39, 39);
+ text-shadow: none;
+cursor: pointer;    
+    }
+
+
+/*Responsividade para telas de 1921px x 2560px*/
+@media (min-width:1921px) and (max-width:2560px) {
+
+    form{
+        height: 1080px;
+    }        
+
+    h1{
+        font-size: 70px;
+    }
+    
+fieldset{
+max-width: 1000px;
+width: 60%;
+ height: 63%;    
+ }
+
+.campo{
+width: 100%;
+height: 15%;
+font-size: 42px;    
+}
+
+
+.campo input[type="text"], .campo input[type="email"],.campo input[type="password"],.campo input[type="tel"]{
+height: 25%;
+width: 80%;
+font-size: 40px;
+ }
+
+.botao{
+font-size:  37px;
+margin-bottom: 3%;
+}
+              
+}
+
+ /*Responsividade para telas de 1441px até 1920px*/                
+@media (min-width:1441px) and (max-width:1920px) {
+
+    form{
+        height: 900px;
+    }        
+
+    h1{
+        font-size: 55px;
+    }
+    
+fieldset{
+max-width: 700px;
+width: 60%;
+ height: 63%;    
+ }
+
+.campo{
+width: 100%;
+height: 15%;
+font-size: 35px;    
+}
+
+
+.campo input[type="text"], .campo input[type="email"],.campo input[type="password"],.campo input[type="tel"]{
+height: 25%;
+width: 80%;
+font-size: 30px;
+ }
+
+.botao{
+font-size:  30px;
+margin-bottom: 3%;
+}
+              
+}
+ 
+/*Responsividade para telas de 701px até 1440px*/                
+@media (min-width:701px) and (max-width:1440px) {
+                       
+form{
+    height: 768px;
+}                 
+
+h1{
+    font-size: 35px;
+}
+
+fieldset{
+max-width: 350px;
+width: 50%;
+height: 63%;    
+}
+
+.campo{
+width: 100%;
+height: 15%;
+font-size: 25px;    
+}
+
+
+.campo input[type="text"], .campo input[type="email"],.campo input[type="password"],.campo input[type="tel"]{
+height: 25%;
+width: 80%;
+font-size: 20px;
+ }
+
+.botao{
+font-size:  20px;
+margin-bottom: 3%;
+}
+}
